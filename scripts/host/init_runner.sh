@@ -109,7 +109,7 @@ load_options() {
 }
 
 update_builder_info() {
-  local builder_full_name="ghcr.io/openwrt-fanboy/builder"
+  local builder_full_name="ghcr.io/clemper/builder"
   BUILDER_TAG_INC="${BUILDER_TAG}-inc"
   BUILDER_IMAGE_ID_BASE="${builder_full_name}:${BUILDER_TAG}"
   BUILDER_IMAGE_ID_INC="${builder_full_name}:${BUILDER_TAG_INC}"
